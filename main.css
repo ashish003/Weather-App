@@ -1,0 +1,94 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+body {
+    background-size: cover;
+    /*background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/clouds-over-a-city.jpg");*/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#heading {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-family: 'IM Fell Double Pica', serif;
+    color: #778899;
+}
+
+#loc {
+    font-size: 3rem;
+    color: black;
+    border-style: outset;
+    border-radius: 1rem;
+    border-color: #778899;
+    background-color: white;
+}
+
+#temp {
+    font-size: 2.5rem;
+    color: black;
+    border-style: outset;
+    border-radius: 1rem;
+    border-color: #778899;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 0;
+}
+
+#con {
+    white-space: normal;
+    font-size: 1em;
+    border-radius: 1em;
+    margin-bottom: 1.5em;
+}
+
+#icon1 {
+    margin-bottom: 0;
+}
+
+#desc {
+    color: black;
+    border-style: outset;
+    border-radius: 0.4rem;
+    border-color: #778899;
+    background-color: white;
+    display: inline;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 800px) {
+    #loc {
+        font-size: 1.5em;
+        color: black;
+        border-style: outset;
+        border-radius: 1em;
+        border-color: #778899;
+        background-color: white;
+    }
+    #temp {
+        font-size: 1em;
+        color: black;
+        border-style: outset;
+        border-radius: 1em;
+        border-color: #778899;
+        background-color: white;
+        margin-left: 0.2em;
+        margin-right: 0.2em;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+    #desc {
+        color: black;
+        border-style: outset;
+        border-radius: 0.4rem;
+        border-color: #778899;
+        background-color: white;
+        display: inline;
+        font-size: 1em;
+    }
+}
